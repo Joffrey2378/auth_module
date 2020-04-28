@@ -1,4 +1,4 @@
-import 'package:auth_module/app/sign_in/email_sign_in_page.dart';
+import 'package:auth_module/app/sign_in/email_sign_in/email_sign_in_page.dart';
 import 'package:auth_module/app/sign_in/sign_in_manager.dart';
 import 'package:auth_module/app/sign_in/social_sign_in_button.dart';
 import 'package:auth_module/common_widgets/platform_exception_alert_dialog.dart';

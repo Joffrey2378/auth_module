@@ -28,8 +28,8 @@ class SignInPage extends StatelessWidget {
         builder: (_, isLoading, __) => Provider<SignInManager>(
           create: (_) => SignInManager(auth: auth, isLoading: isLoading),
           child: Consumer<SignInManager>(
-            builder: (context, bloc, _) => SignInPage(
-              manager: bloc,
+            builder: (context, manager, _) => SignInPage(
+              manager: manager,
               isLoading: isLoading.value,
             ),
           ),

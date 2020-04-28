@@ -1,11 +1,12 @@
-import 'package:auth_module/app/sign_in/email_sign_in_bloc.dart';
-import 'package:auth_module/app/sign_in/email_sign_in_model.dart';
+import 'package:auth_module/app/sign_in/email_sign_in/email_sign_in_bloc.dart';
 import 'package:auth_module/common_widgets/form_submit_button.dart';
 import 'package:auth_module/common_widgets/platform_exception_alert_dialog.dart';
 import 'package:auth_module/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+
+import 'email_sign_in_model.dart';
 
 class EmailSignInFormBlocBased extends StatefulWidget {
   EmailSignInFormBlocBased({@required this.bloc});
